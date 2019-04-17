@@ -156,7 +156,7 @@ def player_numbers(team_name)
       binding.pry
     end
   end
-
+      binding.pry
   arr = []
 end
 player_numbers("Brooklyn Nets")

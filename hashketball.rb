@@ -155,8 +155,8 @@ def player_numbers(team_name)
     end
   end
   arr = []
-end
 binding.pry
+end
 
 def player_stats(player_number)
   arr = []

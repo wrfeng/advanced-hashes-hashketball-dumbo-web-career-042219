@@ -177,7 +177,7 @@ def big_shoe_rebounds
     end
   end
   
-  # player_with_largest_shoe
+  player_with_largest_shoe
 end
 
-big_shoe_rebounds
+# big_shoe_rebounds

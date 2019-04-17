@@ -159,7 +159,7 @@ def player_numbers(team_name)
 
   arr = []
 end
-
+player_numbers("Brooklyn Nets")
 def player_stats(player_number)
   arr = []
   

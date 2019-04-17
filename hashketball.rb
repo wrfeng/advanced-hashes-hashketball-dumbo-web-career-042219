@@ -156,9 +156,8 @@ def player_numbers(team_name)
   end
   arr = []
 end
-arr = player_numbers("Brooklyn Nets")
+binding.pry
 
-puts arr
 def player_stats(player_number)
   arr = []
   

@@ -151,9 +151,7 @@ def player_numbers(team_name)
   
   game_hash.each_value do |team|
     team[:players].each_value do |player|
-      binding.pry
       arr << player[:number] if team[:team_name] == team_name
-      binding.pry
     end
   end
       binding.pry

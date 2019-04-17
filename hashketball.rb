@@ -158,9 +158,9 @@ def player_numbers(team_name)
   arr
 end
 
-def player_stats(player_number)
+def player_stats(player_name)
   game_hash.each_value do |team|
-    team[:players].each_value do |player_stats|
+    team[:players].each do |name, player_stats|
       return player_stats if player_stats[:number] == player_number
     end
   end

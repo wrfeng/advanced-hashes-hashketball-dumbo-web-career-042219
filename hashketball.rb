@@ -163,7 +163,6 @@ def player_stats(player_number)
   
   game_hash.each_value do |team|
     team[:players].each_value do |player|
-      binding.pry
       player.each_value do |stat|
         binding.pry
         arr << stat if player[:number] == player_number

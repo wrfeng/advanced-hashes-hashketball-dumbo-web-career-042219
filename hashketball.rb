@@ -137,4 +137,36 @@ def team_colors(team_name)
   end
 end
 
+def team_names
+  arr = []
+  
+  game_hash.each_value {|team| arr << team[:team_name]}
+  
+  arr
+end
 
+def player_numbers(team_name)
+  arr = []
+  
+  game_hash.each_value do |team|
+    team[:players].each value do |number|
+      arr << number if team[:team_name] == team_name
+    end
+  end
+  
+  arr = []
+end
+
+def player_stats(player_number)
+  arr = []
+  
+  game_hash.each_value do |team|
+    team[:players].each_value do |player|
+      player.each_value do |stat|
+        arr << stat if player[:number] == player_number
+      end
+    end
+  end
+  
+  arr
+end

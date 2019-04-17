@@ -156,7 +156,9 @@ def player_numbers(team_name)
   end
   arr = []
 end
-puts player_numbers("Brooklyn Nets")
+arr = player_numbers("Brooklyn Nets")
+
+puts arr
 def player_stats(player_number)
   arr = []
   

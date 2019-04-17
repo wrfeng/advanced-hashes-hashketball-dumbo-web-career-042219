@@ -153,6 +153,7 @@ def player_numbers(team_name)
     team[:players].each_value do |player|
       binding.pry
       arr << player[:number] if team[:team_name] == team_name
+      binding.pry
     end
   end
 

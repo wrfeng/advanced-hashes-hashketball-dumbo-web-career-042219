@@ -154,10 +154,9 @@ def player_numbers(team_name)
       arr << player[:number] if team[:team_name] == team_name
     end
   end
-      binding.pry
   arr = []
 end
-player_numbers("Brooklyn Nets")
+
 def player_stats(player_number)
   arr = []
   

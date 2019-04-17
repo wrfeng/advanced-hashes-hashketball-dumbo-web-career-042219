@@ -131,6 +131,10 @@ def shoe_size(name)
   end
 end
 
-
+def team_colors(team_name)
+  game_hash.each_value do |team|
+    
+  end
+end
 
 
